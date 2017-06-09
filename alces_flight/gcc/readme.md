@@ -13,3 +13,5 @@ install.packages('Rmpi',configure.args = c("--with-Rmpi-include=/opt/gridware/de
 "--with-Rmpi-type=MPICH2"))
 ```
 
+This worked.
+
