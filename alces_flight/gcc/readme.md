@@ -13,5 +13,11 @@ install.packages('Rmpi',configure.args = c("--with-Rmpi-include=/opt/gridware/de
 "--with-Rmpi-type=MPICH2"))
 ```
 
+submit the job 
+
+```
+qsub run_on_cluster.sh
+```
+
 This worked.
 
