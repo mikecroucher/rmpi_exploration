@@ -14,4 +14,10 @@ install.packages('Rmpi',configure.args = c("--with-Rmpi-include=/usr/local/packa
 "--with-Rmpi-type=OPENMPI"))
 ```
 
-Submitting the job results in a crash
+Submitting the job results in a crash.  It was still hanging 15 minutes after submission
+
+```
+qsub run_on_sharc_gcc.sh
+```
+
+the .e and .log files are in this repo
