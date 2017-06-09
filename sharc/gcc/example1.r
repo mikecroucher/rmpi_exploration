@@ -1,5 +1,3 @@
 library(Rmpi)
-library(snow)
-
-cl <- makeCluster(2, type = "MPI") 
-stopCluster(cl)
+mpi.spawn.Rslaves(nslaves = 2)
+mpi.close.Rslaves()
