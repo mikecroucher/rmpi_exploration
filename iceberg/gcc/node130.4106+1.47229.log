@@ -1,0 +1,6 @@
+node130.47231R: Connect: Warning! unknown HCA type 0. Assuming remote HCA is same as local.
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[node130:47231] Local abort before MPI_INIT completed successfully; not able to aggregate error messages, and not able to guarantee that all other processes were killed!

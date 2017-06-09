@@ -1,0 +1,1 @@
+[node037:4213] Local abort before MPI_INIT completed successfully; not able to aggregate error messages, and not able to guarantee that all other processes were killed!
